@@ -1,17 +1,17 @@
 package com.kokokozhina.utils;
 
+import com.kokokozhina.AppConfig;
 import javafx.util.Pair;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
 
 import java.time.LocalTime;
 import java.util.*;
 
 import static java.lang.Math.min;
 
-@Service
+//@Service
 public class KGrammIndex {
 
     @Autowired
